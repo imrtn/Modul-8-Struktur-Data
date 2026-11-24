@@ -673,7 +673,7 @@ void printInfo(Queue Q) {
 ```
 Kode ini berisi implementasi Queue dengan mekanisme circular buffer, yaitu head dan tail berputar mengelilingi array. Setiap kali maju, indeks dihitung dengan modulo (% MAX), sehingga setelah indeks terakhir kembali ke indeks 0. Dengan cara ini tidak perlu menggeser elemen dan tidak ada kondisi penuh semu. Queue dianggap penuh jika posisi setelah tail (secara melingkar) adalah head. printInfo juga berjalan melingkar dari head sampai tail, sehingga tetap benar walaupun tail berada "sebelum" head.
 
-## Queue2.cpp
+## main.cpp
 
 ```C++
 #include "queue.h"
@@ -706,7 +706,15 @@ Kode main ini sama untuk ketiga alternatif, tinggal ganti queue.cpp yang dikompi
 
 ##### Output 1
 
-![Screenshot Output Unguided]()
+![Screenshot Output Unguided](https://github.com/imrtn/Modul-8-Struktur-Data/blob/4c75f91c5b806c149f557869982aaa1155ac0a8a/Modul%208/Output/satu.png)
+
+##### Output 2
+
+![Screenshot Output Unguided](https://github.com/imrtn/Modul-8-Struktur-Data/blob/4c75f91c5b806c149f557869982aaa1155ac0a8a/Modul%208/Output/dua.png)
+
+##### Output 3
+
+![Screenshot Output Unguided](https://github.com/imrtn/Modul-8-Struktur-Data/blob/4c75f91c5b806c149f557869982aaa1155ac0a8a/Modul%208/Output/tiga.png)
 
 ## Kesimpulan
 
